@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid red 2px;
+}
+
+.label {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container { 
+
+    display:grid;
+    width: 700px;
+    height: 600px;
+    
+    margin-top: -80px;
+    border: 100px solid red;
+    border-radius: 100px;
+    grid-template-rows: auto;
+
+}
+
+.smallBox {
+    border:solid black 0.5px;
+
+}
+
+.sliderContainer {
+    margin-top: -70px;
+}
