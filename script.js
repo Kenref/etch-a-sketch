@@ -9,8 +9,6 @@ for (i = 0; i < size; i++) {
     smallBox.classList.add("smallBox")
     largeBox.appendChild(smallBox);
 
-    //smallBox.textContent = "O"
-
     function mouseOn() {
         smallBox.style.backgroundColor = "black"
     }
